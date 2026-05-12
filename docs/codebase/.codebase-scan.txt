@@ -1,0 +1,149 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+.gitignore
+01. gitlab-in-docker
+01. gitlab-in-docker\README.md
+02. gitlab-in-docker-compose
+02. gitlab-in-docker-compose\docker-compose.yaml
+02. gitlab-in-docker-compose\README.md
+03. gitlab-runner-with-shell-executor
+03. gitlab-runner-with-shell-executor\config.toml
+03. gitlab-runner-with-shell-executor\docker-compose.yml
+03. gitlab-runner-with-shell-executor\executor.png
+03. gitlab-runner-with-shell-executor\gitlab-ci.yml
+03. gitlab-runner-with-shell-executor\GitLab-networking
+03. gitlab-runner-with-shell-executor\README.md
+03. gitlab-runner-with-shell-executor\runner.png
+04. gitlab-runner-with-docker-executor-socket-binding
+04. gitlab-runner-with-docker-executor-socket-binding\config.toml
+04. gitlab-runner-with-docker-executor-socket-binding\docker-compose.yml
+04. gitlab-runner-with-docker-executor-socket-binding\Dockerfile
+04. gitlab-runner-with-docker-executor-socket-binding\executor.png
+04. gitlab-runner-with-docker-executor-socket-binding\gitlab-ci.yml
+04. gitlab-runner-with-docker-executor-socket-binding\GitLab-networking
+04. gitlab-runner-with-docker-executor-socket-binding\README.md
+04. gitlab-runner-with-docker-executor-socket-binding\runner.png
+05. gitlab-runner-with-docker-executor-dind
+05. gitlab-runner-with-docker-executor-dind\config.toml
+05. gitlab-runner-with-docker-executor-dind\docker-compose.yml
+05. gitlab-runner-with-docker-executor-dind\Dockerfile
+05. gitlab-runner-with-docker-executor-dind\executor.png
+05. gitlab-runner-with-docker-executor-dind\gitlab-ci.yml
+05. gitlab-runner-with-docker-executor-dind\GitLab-networking
+05. gitlab-runner-with-docker-executor-dind\README.md
+05. gitlab-runner-with-docker-executor-dind\runner.png
+06. gitlab-runner-with-kubernetes-executor
+06. gitlab-runner-with-kubernetes-executor\config.toml
+06. gitlab-runner-with-kubernetes-executor\docker-compose.yml
+06. gitlab-runner-with-kubernetes-executor\kind-cluster-config.yaml
+06. gitlab-runner-with-kubernetes-executor\kind-service.yaml
+06. gitlab-runner-with-kubernetes-executor\README.md
+07. auto-register-gitlab-runner-with-docker-executor
+07. auto-register-gitlab-runner-with-docker-executor\docker-compose.yml
+07. auto-register-gitlab-runner-with-docker-executor\gitlab-ci.yml
+07. auto-register-gitlab-runner-with-docker-executor\README.md
+08. build-docker-images-using-kaniko
+08. build-docker-images-using-kaniko\.gitlab-ci.yml
+08. build-docker-images-using-kaniko\config.toml
+08. build-docker-images-using-kaniko\docker-compose.yml
+08. build-docker-images-using-kaniko\Dockerfile
+08. build-docker-images-using-kaniko\README.md
+08. build-docker-images-using-kaniko\src
+08. build-docker-images-using-kaniko\src\.gitkeep
+08. build-docker-images-using-kaniko\src\mydockerfile
+09. setup-container-registry
+09. setup-container-registry\.gitlab-ci.yml
+09. setup-container-registry\config.toml
+09. setup-container-registry\docker-compose.yml
+09. setup-container-registry\Dockerfile
+09. setup-container-registry\README.md
+10. scan-container-images-in-registry
+10. scan-container-images-in-registry\.gitlab-ci.yml
+10. scan-container-images-in-registry\config.toml
+10. scan-container-images-in-registry\docker-compose.yml
+10. scan-container-images-in-registry\Dockerfile
+10. scan-container-images-in-registry\README.md
+11. scan-dependencies-in-gitlab-ci
+11. scan-dependencies-in-gitlab-ci\.gitlab-ci.yml
+11. scan-dependencies-in-gitlab-ci\README.md
+11. scan-dependencies-in-gitlab-ci\requirements.txt
+docs
+docs\codebase
+docs\codebase\.codebase-scan.txt
+README.md
+
+=== STACK DETECTION (manifest files) ===
+No recognized manifest files found in project root.
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+No linting or formatting config files found in project root.
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+No .env.example or .env.template found. Identify required environment variables by searching the code and config for environment variable reads.
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+None found.
+
+=== GIT RECENT COMMITS (last 20) ===
+a5b8ed8 Update README.md
+fec2ce9 rename scan deps
+2336ab9 move nextjs dockerization
+e010c2d Update README.md
+be410e5 Update README.md
+ff84abc Create README.md
+9d4302f Create README.md
+02eb31e add dependencies scanning in GitLab CI
+e2594ea dockerize nextjs for local and production
+d037cfb improve nextjs to ec2
+b9c408c improve nextjs to ec2
+b4a7add improve nextjs to ec2
+5317646 Update Dockerfile
+82b3717 deploy nextjs app to EC2 using gitlab CI
+82f6a35 deploy nextjs app to EC2 using gitlab CI
+b3a37a6 add container scanning in CI
+8aca564 Update README.md
+4a9361b Update .gitlab-ci.yml
+a08fa18 improve
+effef17 refactor
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+None found.
+
+=== MONOREPO SIGNALS ===
+No monorepo signals detected.
+
+=== CODE METRICS ===
+Total files scanned: 46
+Total lines of code: 0
+
+Files by language:
+  Other: 46
+
+Top 10 largest files:
+03. gitlab-runner-with-shell-executor\executor.png: 49.7KB
+04. gitlab-runner-with-docker-executor-socket-binding\executor.png: 49.7KB
+05. gitlab-runner-with-docker-executor-dind\executor.png: 49.7KB
+03. gitlab-runner-with-shell-executor\runner.png: 43.1KB
+04. gitlab-runner-with-docker-executor-socket-binding\runner.png: 43.1KB
+05. gitlab-runner-with-docker-executor-dind\runner.png: 43.1KB
+02. gitlab-in-docker-compose\README.md: 2.4KB
+01. gitlab-in-docker\README.md: 2.2KB
+10. scan-container-images-in-registry\README.md: 2.2KB
+09. setup-container-registry\README.md: 1.8KB
+
+=== CI/CD PIPELINES ===
+No CI/CD pipelines detected.
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===
